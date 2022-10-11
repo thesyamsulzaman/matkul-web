@@ -1,0 +1,120 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#form {
+  box-sizing: border-box;
+}
+
+.form-field {
+  margin: 0 0 1rem 0;
+}
+
+label,
+input {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+input {
+  padding: 0.5em;
+}
+
+label {
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
+
+.btn {
+  padding: 0.56em;
+  background-color: white;
+  border: 1px solid #bbb;
+  text-decoration: none;
+  color: #111;
+  border-radius: 8px;
+}
+
+.btn.active {
+  color: #fff;
+  background-color: #222;
+}
+
+.badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 18px;
+  padding: 0.2em 0.6em;
+  background: #ddd;
+}
+
+.badge.success {
+  color: #00b300;
+  background: #ccffcc;
+}
+
+.badge.danger {
+  color: #ff4d4d;
+  background: #ff9999;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid gray;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  padding: 1em 0.5em;
+  border: 1px solid gray;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.table thead tr th {
+  text-align: left;
+  padding: 0.3em;
+  font-size: 0.875em;
+  color: grey;
+}
+
+.table thead tr th:nth-child(2),
+.table tbody tr td:nth-child(2) {
+  padding-right: 1.5em;
+}
+
+.table tbody tr td {
+  padding: 0.6em 0.3em;
+  font-size: 1rem;
+  border-bottom: 1px solid #aaa;
+  color: #111;
+}
+
+.pagination {
+  margin-top: 1.3em;
+}
